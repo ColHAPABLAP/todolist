@@ -1,0 +1,10 @@
+{
+  "name": "tailor",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "node-tailor": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {}
+}
