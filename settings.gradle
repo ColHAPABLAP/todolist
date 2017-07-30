@@ -2,4 +2,6 @@ rootProject.name = 'todolist'
 
 include 'backend'
 include 'react-frontend'
+include 'angular-frontend'
 include 'tailor'
+include 'skipper'
