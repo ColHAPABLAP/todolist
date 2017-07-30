@@ -24,3 +24,14 @@ react: Path("/react") -> "http://localhost:5000";
 static: Path("/static/*path") -> "http://localhost:5000/static";
 fragment: Path("/fragment") -> "http://localhost:8081";
 tailor: Path("/index") -> "http://localhost:8080";
+
+<h2> Still missing:
+
+* not using host names for Link header entry for css/js, but instead
+using Skipper routes
+* setup of angular2 app regarding fragment serving, needs probably
+  * serving of html
+  * Link entry in header containing css and js files
+  * Skipper routing for static resources when using different fragments,
+  including unique mappings per app (one mapping for react microservice,
+  one mapping for angular microservice...)
